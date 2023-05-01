@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.m-bottom {
+    margin-bottom: 2000px;
+}
+
+ul {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(90, 90, 90);
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    font-style: 18px;
+    color: white;
+}
+
+.paragrafo {
+    margin-top: 70px;
+}
+
+.wpp {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
+
+.sticky {
+    background-color: rgb(238, 163, 149);
+    position: sticky;
+    top: 58px;
+}
+
+.box {
+    width: 90%;
+    margin: auto;
+    border: solid 2px black;
+    height: 300px;
+    position: relative;
+}
+
+.relative {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: relative;
+    left: 50%;
+    z-index: 1;
+}
+
+.absolute {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(194, 125, 221);
+    position: absolute;
+    right: 375px;
+    top: 20px;
+    z-index: 2;
+}
+
+.fixed {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(156, 221, 125);
+    position: fixed;
+}

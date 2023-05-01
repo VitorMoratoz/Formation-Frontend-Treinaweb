@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+    margin-bottom: 30%;
+}
+
+.tabela1, .tabela1 th, .tabela1 td, .tabela2, .tabela2 th, .tabela2 td {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+.tabela1 th {
+    background-color: rgb(78, 243, 255);
+    font-size: 1.2rem;
+    width: calc(100%/7);
+}
+
+.tabela1 td {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.tabela1 td:hover {
+    background-color: rgb(189, 248, 248);
+    cursor: pointer;
+}
+
+.tabela2 tr:first-child {
+    background-color: rgb(129, 247, 129);
+
+}
+
+.tabela3 {
+    text-align: left;
+    border-spacing: 0 10px;
+}
+
+.tabela3 tr:nth-child(odd) {
+    background-color: rgb(206, 206, 206); 
+
+}

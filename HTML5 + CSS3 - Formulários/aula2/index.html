@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+
+<body>
+    <form>
+        <label for="comentario">Deixe seu comentário</label>
+        <br>
+        <textarea name="comentario" id="comentario" cols="15" rows="5"></textarea>
+    </form>
+
+    <form>
+        <label for="arquivo">Selecione um arquivo</label>
+        <input type="file" id="arquivo" multiple>
+    </form>
+
+    <form>
+        <input type="checkbox" id="amarelo" checked> 
+        <label for="amarelo">Amarelo</label>
+        <br>
+        <input type="checkbox" id="azul" disabled checked> 
+        <label for="azul">Azul</label>
+        <br>
+        <input type="checkbox" id="verde" disabled> 
+        <label for="verde">Verde</label>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="radio" name="cores" id="amarelo" checked> 
+        <label for="amarelo">Amarelo</label>
+        <br>
+        <input type="radio" name="cores" id="azul" disabled checked>
+        <label for="azul">Azul</label>
+        <br>
+        <input type="radio" name="cores" id="verde" disabled> 
+        <label for="verde">Verde</label>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label for="volume">Volume</label>
+        <input type="range" min="0" max="50" step="5" value="50"> 
+    </form>
+</body>
+
+</html>

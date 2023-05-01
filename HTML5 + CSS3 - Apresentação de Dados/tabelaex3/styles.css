@@ -1,0 +1,47 @@
+table {
+    width: 100%;
+}
+
+table, td, th {
+    text-align: center;
+    border: solid 1px #bababa;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+thead tr:first-child {
+    color: gray;
+}
+
+.price {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.basico {
+    background-color: rebeccapurple;
+}
+
+.padrao {
+    background-color: rgb(1, 129, 129);
+}
+
+.avancado {
+    background-color: rgb(75, 150, 0);
+}
+
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    opacity: .8;
+}

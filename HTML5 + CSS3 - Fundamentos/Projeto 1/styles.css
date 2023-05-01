@@ -1,0 +1,78 @@
+.meu-link, .outra {
+    color: rgb(0, 116, 161);
+    background-color: rgb(156, 156, 156);
+}
+
+li > span{
+    background-color: red;
+    color: black;
+}
+
+input[readonly]{
+    background-color: blue;
+    color: white;
+}
+
+input[type="text"]{
+    background-color: red;
+    color: white;
+}
+
+a[href*="contato"]{
+    background-color: red;
+    color: white;
+}
+
+a:active{
+    color: purple;
+}
+
+input:checked + a{
+    background-color: white;
+    color: black;
+}
+
+h5:empty{
+    border: red solid 5px;
+}
+
+input:disabled{
+    background-color: black;
+}
+
+input:focus{
+    background-color:rgb(0, 116, 161)
+}
+
+input:hover{
+    background-color:rgb(9, 255, 0)
+}
+
+li:hover{
+    background-color: black;
+    color: white;
+}
+
+div{
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 100px;
+    background-color: black;
+}
+
+p{
+    font-size: 12px;
+    color: rgb(3, 73, 73);
+    font-family: 'Bruno Ace', cursive;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: overline;
+    text-transform: lowercase;
+    text-shadow: 0px 1px 0px black ;
+    word-spacing: 5px;
+    line-height: 2;
+    word-break: break-all;
+    white-space: normal;
+}
+

@@ -1,0 +1,21 @@
+ol {
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+
+ul {
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+
+body {
+    background-color: paleturquoise;
+}
+
+th, td, table {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}

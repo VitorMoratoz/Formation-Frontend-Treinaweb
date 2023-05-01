@@ -1,0 +1,15 @@
+span {
+    background-color: aqua;
+    border: solid 1px black;
+}
+
+.inline-flex {
+    display: block;
+    width: 200px;
+}
+
+p {
+    display: inline;
+    width: 200px;
+    margin: auto;
+}

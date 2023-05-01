@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    text-align: left;
+}
+
+.titulo {
+    background-color: rgb(187, 187, 187);
+    color: white;
+}
+
+tbody {
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+th {
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+}
